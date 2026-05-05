@@ -1,0 +1,60 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+ipch/
+
+# Build outputs
+build/
+build_verify/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Win32/
+ARM64/
+*/[Dd]ebug/
+*/[Rr]elease/
+*/x64/
+*/x86/
+*/Win32/
+*/ARM64/
+
+# MSVC intermediate and debug files
+*.obj
+*.pch
+*.pdb
+*.ipdb
+*.iobj
+*.idb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.recipe
+*.res
+*.log
+*.Build.CppClean.log
+*.vcxproj.FileListAbsolute.txt
+*.unsuccessfulbuild
+
+# Binaries
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Runtime/local state
+imgui.ini
+MostLyric.log
+MostLyricHook.log
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
